@@ -6,14 +6,14 @@ int main() {
    float x,y;
    cin >> a>>b;
    cin >> x>> y;
+   float z;
    if( ( x<0, y>0){
-       cout << (a*x-b*y)<< endl;
-   }
+       z=(a*x-b*y);
    else if (x>=0, y<=0){
-       cout << (a*x*x-b*y)<< endl;
+     z=(a*(x*x)-b*y);
+      else{
+       z=(a*x +b*(y*y));
    }
-   else{
-       cout << (a*x +b*y*y)<< endl;
-   }
+      cout << (z) << endl;
    return 0;
 }
