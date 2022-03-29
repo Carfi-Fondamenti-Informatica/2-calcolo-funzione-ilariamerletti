@@ -7,10 +7,12 @@ int main() {
    cin >> a>>b;
    cin >> x>> y;
    float z;
-   if( ( x<0, y>0){
+   if ( x<0, y>0){
        z=(a*x-b*y);
+   }
    else if (x>=0, y<=0){
      z=(a*(x*x)-b*y);
+   }
       else{
        z=(a*x +b*(y*y));
    }
